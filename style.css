@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#birthdayCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#messageBox {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  text-align: center;
+  z-index: 10;
+  color: lightpink;
+}
+
+#mainMessage, #subMessage {
+  font-size: 20px;
+  margin: 10px auto;
+  white-space: pre-line;
+  max-width: 90%;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+#mainMessage {
+  font-size: 28px;
+  font-weight: bold;
+  color: lightpink;
+}
+
+#replayBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: deeppink;
+  color: white;
+  cursor: pointer;
+}
